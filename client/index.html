@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<h1>Hello Canvas</h1>
+
+<head>
+  <title>Collaborative Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="toolbar">
+  <input type="color" id="colorPicker" />
+  <button id="undoBtn">Undo</button>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="canvas.js"></script>
+<script src="websocket.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
